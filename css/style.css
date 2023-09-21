@@ -11,8 +11,9 @@
 
  :root {
 
-    --glass-color:linear-gradient(to left , rgba(255,255,255,0.1),rgba(255,255,255,0.1));
-    --backdrop-glass: blur(15px);
+    --glass-color:linear-gradient(to left , rgba(255,255,255,0.05),rgba(255,255,255,0.05));
+    --hover-color: rgba(255,255,255,0.2);
+    --backdrop-glass: blur(10px);
 
     --text-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     --box-shadow: 0 5px 10px rgba(0,0,0,0.5);
@@ -49,8 +50,10 @@
    height: 40px;
  }
 
- .sidebar ul:hover {
-   background: var(--glass-color);
+ .menu-link li a{
+   transition: 0.75s;
+   height: 100%;
+   width: 100%;
  }
 
  .sidebar li .icon {
@@ -89,7 +92,7 @@
 }
 
 .sidebar .menu-bar {
-   height: calc(100% - 56px - 48px);
+   height: calc(100% - 56px - 55px);
 }
 
 .sidebar .bottom-content {
@@ -126,7 +129,7 @@
 }
 
 .sidebar.close li .icon {
-   min-width: 28px;
+   min-width: 44px;
 }
 
 .sidebar.close header .toggle {
@@ -149,7 +152,33 @@
 }
 
 .sidebar.close .menu-bar {
-   height: calc(100% - 56px - 80px);
+   height: calc(100% - 56px - 93px);
 }
- 
 
+ .sidebar .menu-link li .tool-tip {
+   height: 40px;
+   width: 150px;
+   left: 65px;
+   background: rgba(0,0,0,0.75);
+   border: 1px solid rgba(255,255,255,0.40);
+   box-shadow: var(--box-shadow);
+   transition: all 0.5s ease;
+   pointer-events: none;
+   opacity: 0;
+}
+
+/*  hover */
+
+.sidebar .menu-link li a:hover {
+   transition: 0.75s;
+   background: var(--hover-color);
+   border-radius: 6px;
+   
+ }
+
+
+ 
+.sidebar.close .menu-link li:hover .tool-tip {
+   transition: all 0.5s ease;
+   opacity: 1;
+}
