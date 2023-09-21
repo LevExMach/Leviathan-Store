@@ -44,6 +44,7 @@
     backdrop-filter: var(--backdrop-glass);
     box-shadow: var(--box-shadow);
     transition: 0.5s ease;
+    z-index: 9999;
  }
 
  .sidebar li {
@@ -182,3 +183,22 @@
    transition: all 0.5s ease;
    opacity: 1;
 }
+
+/*  section  */
+
+.sidebar.close ~ .home {
+   width: calc(100% - 58px);
+   left: 58px !important;
+   transition: all 0.75s ease;
+}
+
+.sidebar ~ .home {
+   width: calc(100% - 58px);
+   left: 58px !important;
+   transition: all 0.75s ease;
+
+/*.sidebar ~ .home {
+   width: calc(100% - 250px);
+   left: 250px !important;
+   transition: all 0.5s ease;
+}*/
