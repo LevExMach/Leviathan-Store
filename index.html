@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 
-<body class="">
+<body class="h-100 w-100">
 
     <!--Sidebar-->
     <nav class="sidebar close position-fixed top-0 start-0 h-100 text-white">
@@ -119,12 +119,12 @@
             </li>
         </div>
     </nav>
-    <section class="page position-relative text-white px-2">
-        <div class="row px-2 sticky-top">
+    <section class="page position-relative text-white px-1">
+        <div class="row gx-2 px-2 sticky-top">
             <div class="col d-flex align-items-center fs-4 ms-5 pe-none fw-bold">
                 <span>Home</span>
             </div>
-            <div class="col-auto d-flex align-items-center justify-content-end my-2">
+            <div class="col-auto d-flex align-items-center justify-content-end my-2 mx-md-3 mx-2">
                 <div class="row ps-2 saldo-m position-relative">
                     <div class="col-auto px-4 sub-text pe-none d-none d-md-block">
                         <span class="saldo row d-flex justify-content-end mb-0">Saldo</span>
@@ -137,7 +137,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-auto d-flex align-items-center justify-content-end my-2">
+            <div class="col-auto d-flex align-items-center justify-content-end my-2 mx-md-3 mx-2">
                 <div class="row ps-2">
                     <div class="col-auto px-4 sub-text pe-none d-none d-md-block">
                         <span class="name row d-flex justify-content-end mb-0">Name</span>
@@ -151,49 +151,49 @@
             </div>
         </div>
 
-        <div class="row px-0 px-md-4">
-            <div class="col-md-9">
+        <div class="row gx-2 px-0 px-md-4">
+            <div class="col-md-9 pe-md-3 px-2">
                 <div class="swiper mySwiper rounded-4">
                     <div class="swiper-wrapper">
-                        <div
-                            class="swiper-slide rounded-4 text-center d-flex justify-content-center align-items-center bg-white text-black">
-                            Slide 1</div>
-                        <div
-                            class="swiper-slide rounded-4 text-center d-flex justify-content-center align-items-center bg-white text-black">
-                            Slide 2</div>
-                        <div
-                            class="swiper-slide rounded-4 text-center d-flex justify-content-center align-items-center bg-white text-black">
-                            Slide 3</div>
-                        <div
-                            class="swiper-slide rounded-4 text-center d-flex justify-content-center align-items-center bg-white text-black">
-                            Slide 4</div>
+                        <div class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
+                            <img src="img/slide1.jpg" alt="" class="object-fit-cover h-100 w-100 d-block">
+                        </div>
+                        <div class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
+                            <img src="img/slide2.jpg" alt="" class="object-fit-cover h-100 w-100 d-block">
+                        </div>
+                        <div class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
+                            <img src="img/slide3.jpg" alt="" class="object-fit-cover h-100 w-100 d-block">
+                        </div>
+                        <div class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
+                            <img src="img/slide4.jpg" alt="" class="object-fit-cover h-100 w-100 d-block">
+                        </div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-            <div class="col-md-3 d-none d-md-flex bg-info">
-                <div class="account">
-                    <div class="d-flex">
+            <div class="col-md-3 d-none d-md-flex">
+                <div class="account h-100 w-100 text-center rounded-4 bg-success">
+                    <div class="py-4 d-flex justify-content-center align-items-center">
                         <img src="img/logo.png" alt="" class="account-img rounded-circle object-fit-cover">
                     </div>
-                    <div class="account-text">
+                    <div class="row account-text fs-5">
                         <span>Name</span>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row" style="height: 50rem;">t</div>
-    
+        <div class="row gx-2" style="height: 50rem;">t</div>
+
 
     </section>
     <!-- Swiper JS -->
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
-    var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".mySwiper", {
             spaceBetween: 30,
             centeredSlides: true,
-            loop:true,
+            loop: true,
             autoplay: {
                 delay: 2500,
                 disableOnInteraction: false,
@@ -203,7 +203,7 @@
                 dynamicBullets: true,
             },
         });
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

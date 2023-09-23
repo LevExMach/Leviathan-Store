@@ -20,7 +20,7 @@
 }
 
 body {
-   background-image: url(../img/background2.jpg) !important;
+   background-image: url(../img/background.jpg) !important;
    background-size: cover;
 }
 
@@ -211,6 +211,7 @@ body {
    padding-right: 2.5rem !important;
    background: var(--glass-color);
    backdrop-filter: var(--backdrop-glass);
+   box-shadow: var(--box-shadow);
 }
 
 .page .main {
@@ -219,6 +220,7 @@ body {
    border: 1px solid white;
    background: var(--glass-color);
    backdrop-filter: var(--backdrop-glass);
+   box-shadow: var(--box-shadow);
 }
 
 .page .name {
@@ -247,9 +249,15 @@ body {
    right: -1.25rem;
 }
 
+.page .account {
+   background: var(--glass-color);
+   backdrop-filter: var(--backdrop-glass);
+   box-shadow: var(--box-shadow);
+}
+
 .page .account-img {
-   width: 100px;
-   height: 100px;
+   width: 70px;
+   height: 70px;
 }
 
 
