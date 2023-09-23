@@ -69,11 +69,13 @@
  .header-text .name {
     font-size: 18px;
     font-family: 'Gang';
+    pointer-events: none;
 }
 
 .header-text .profession {
     font-size: 12px;
     margin-top: -5px;
+    pointer-events: none;
 }
 
 .sidebar header .toggle {
@@ -196,9 +198,52 @@
    width: calc(100% - 58px);
    left: 58px !important;
    transition: all 0.75s ease;
-
+}
 /*.sidebar ~ .home {
    width: calc(100% - 250px);
    left: 250px !important;
    transition: all 0.5s ease;
 }*/
+
+.home .about {
+   border: 1px solid white;
+   margin-right: -35px;
+   border-radius: 25px 25px 25px 25px;
+   padding-right: 2.5rem !important;
+   background: var(--glass-color);
+   backdrop-filter: var(--backdrop-glass);
+}
+
+.home .profile {
+   height: 40px;
+   width: 40px;
+   border: 1px solid white;
+   background: var(--glass-color);
+   backdrop-filter: var(--backdrop-glass);
+}
+
+.home .name {
+   font-size: 13px;
+   margin-bottom: -3px;
+}
+
+.home .member {
+   font-size: 10px;
+   margin-top: -3px;
+}
+
+.home .saldo {
+   font-size: 10px;
+}
+
+.home .number {
+   font-size: 13px;
+}
+
+.home .swiper {
+   height: 23rem;
+ }
+
+.home .saldo-m {
+   right: -1.25rem;
+}
