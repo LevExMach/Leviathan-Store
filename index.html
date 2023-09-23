@@ -119,33 +119,33 @@
             </li>
         </div>
     </nav>
-    <section class="home position-relative text-white px-2">
+    <section class="page position-relative text-white px-2">
         <div class="row px-2 sticky-top">
-            <div class="col d-flex align-items-center fs-4 ms-5 pe-none">
+            <div class="col d-flex align-items-center fs-4 ms-5 pe-none fw-bold">
                 <span>Home</span>
             </div>
             <div class="col-auto d-flex align-items-center justify-content-end my-2">
                 <div class="row ps-2 saldo-m position-relative">
-                    <div class="col-auto px-4 about pe-none d-none d-md-block">
+                    <div class="col-auto px-4 sub-text pe-none d-none d-md-block">
                         <span class="saldo row d-flex justify-content-end mb-0">Saldo</span>
                         <span class="number row d-flex justify-content-end">IDR 10.000.000</span>
                     </div>
                     <div class="col-auto d-flex justify-content-center align-items-center">
                         <a href="#"
-                            class="text-white rounded-circle profile d-flex justify-content-center align-items-center fs-4"><i
+                            class="text-white rounded-circle main d-flex justify-content-center align-items-center fs-4"><i
                                 class="bi bi-wallet2"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-auto d-flex align-items-center justify-content-end my-2">
                 <div class="row ps-2">
-                    <div class="col-auto px-4 about pe-none d-none d-md-block">
+                    <div class="col-auto px-4 sub-text pe-none d-none d-md-block">
                         <span class="name row d-flex justify-content-end mb-0">Name</span>
                         <span class="member row d-flex justify-content-end">Member Level</span>
                     </div>
                     <div class="col-auto d-flex justify-content-center align-items-center">
                         <a href="#" class="text-white"><img src="img/sample.jpg" alt="" srcset=""
-                                class="object-fit-fill rounded-circle profile"></a>
+                                class="object-fit-contain rounded-circle main"></a>
                     </div>
                 </div>
             </div>
@@ -153,26 +153,33 @@
 
         <div class="row px-0 px-md-4">
             <div class="col-md-9">
-                <div class="swiper mySwiper">
+                <div class="swiper mySwiper rounded-4">
                     <div class="swiper-wrapper">
                         <div
-                            class="swiper-slide text-center d-flex justify-content-center align-items-center bg-white text-black">
+                            class="swiper-slide rounded-4 text-center d-flex justify-content-center align-items-center bg-white text-black">
                             Slide 1</div>
                         <div
-                            class="swiper-slide text-center d-flex justify-content-center align-items-center bg-white text-black">
+                            class="swiper-slide rounded-4 text-center d-flex justify-content-center align-items-center bg-white text-black">
                             Slide 2</div>
                         <div
-                            class="swiper-slide text-center d-flex justify-content-center align-items-center bg-white text-black">
+                            class="swiper-slide rounded-4 text-center d-flex justify-content-center align-items-center bg-white text-black">
                             Slide 3</div>
                         <div
-                            class="swiper-slide text-center d-flex justify-content-center align-items-center bg-white text-black">
+                            class="swiper-slide rounded-4 text-center d-flex justify-content-center align-items-center bg-white text-black">
                             Slide 4</div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
             <div class="col-md-3 d-none d-md-flex bg-info">
-                <img src="" alt="">
+                <div class="account">
+                    <div class="d-flex">
+                        <img src="img/logo.png" alt="" class="account-img rounded-circle object-fit-cover">
+                    </div>
+                    <div class="account-text">
+                        <span>Name</span>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row" style="height: 50rem;">t</div>
@@ -186,7 +193,7 @@
     var swiper = new Swiper(".mySwiper", {
             spaceBetween: 30,
             centeredSlides: true,
-            
+            loop:true,
             autoplay: {
                 delay: 2500,
                 disableOnInteraction: false,
