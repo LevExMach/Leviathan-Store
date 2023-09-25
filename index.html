@@ -6,20 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leviathan Store - Top Up Murah</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <!--Custom CSS-->
+    <!--Custom CSS Link-->
     <link rel="stylesheet" href="css/style.css">
     <!--Bootstrap Link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!--Bootstrap Icon Link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-    <!-- Link Swiper's CSS -->
+    <!-- Swiper CSS Link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Bootstrap JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Swiper JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 
 <body class="h-100 w-100">
 
     <!--Sidebar-->
+
     <nav class="sidebar close position-fixed top-0 start-0 h-100 text-white">
         <header class="position-relative">
             <div class="image-text d-flex align-items-center px-2 py-2">
@@ -32,14 +39,15 @@
                     <span class="profession fw-bold">Store</span>
                 </div>
             </div>
-
             <!--Tombol Sidebar-->
+
             <i
                 class="bi bi-caret-left-fill toggle position-absolute top-50 d-flex align-items-center justify-content-center rounded-circle"></i>
 
         </header>
 
         <!--Menu Sidebar-->
+
         <div class="menu-bar d-flex flex-column justify-content-between">
             <div class="menu my-4">
                 <ul class="menu-link px-2">
@@ -106,7 +114,10 @@
                 </ul>
             </div>
         </div>
-        <div class="bottom-content position-relative">
+
+        <!-- Social Media -->
+
+        <div class="bottom-content position-fixed">
             <li class="nav-link d-flex align-items-center justify-content-center py-2">
                 <a href="#"
                     class="fs-5 my-1 mx-2 text-white d-flex justify-content-center align-items-center rounded socialmedia">
@@ -119,11 +130,20 @@
             </li>
         </div>
     </nav>
-    <section class="page position-relative text-white px-1">
-        <div class="row gx-2 px-2 sticky-top">
+
+    <!-- HOME PAGE -->
+
+    <section class="page position-relative px-1">
+
+        <!-- Header Page -->
+
+        <div class="row gx-2 px-2 sticky-top text-white">
             <div class="col d-flex align-items-center fs-4 ms-5 pe-none fw-bold">
                 <span>Home</span>
             </div>
+
+            <!-- Tombol Deposit -->
+
             <div class="col-auto d-flex align-items-center justify-content-end my-2 mx-md-3 mx-2">
                 <div class="row ps-2 saldo-m position-relative">
                     <div class="col-auto px-4 sub-text pe-none d-none d-md-block">
@@ -137,6 +157,9 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Tombol Akun -->
+
             <div class="col-auto d-flex align-items-center justify-content-end my-2 mx-md-3 mx-2">
                 <div class="row ps-2">
                     <div class="col-auto px-4 sub-text pe-none d-none d-md-block">
@@ -151,62 +174,117 @@
             </div>
         </div>
 
-        <div class="row gx-2 px-0 px-md-4">
-            <div class="col-md-9 pe-md-3 px-2">
+        <!-- Slider Banner -->
+
+        <div class="row gx-2 px-0 px-md-4 text-white">
+            <div class="col-md-9 pe-md-3 px-2 banner">
                 <div class="swiper mySwiper rounded-4">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
+                        <div
+                            class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
                             <img src="img/slide1.jpg" alt="" class="object-fit-cover h-100 w-100 d-block">
                         </div>
-                        <div class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
+                        <div
+                            class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
                             <img src="img/slide2.jpg" alt="" class="object-fit-cover h-100 w-100 d-block">
                         </div>
-                        <div class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
+                        <div
+                            class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
                             <img src="img/slide3.jpg" alt="" class="object-fit-cover h-100 w-100 d-block">
                         </div>
-                        <div class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
+                        <div
+                            class="swiper-slide rounded-4 overflow-hidden text-center d-flex justify-content-center align-items-center bg-white text-black">
                             <img src="img/slide4.jpg" alt="" class="object-fit-cover h-100 w-100 d-block">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-            <div class="col-md-3 d-none d-md-flex">
-                <div class="account h-100 w-100 text-center rounded-4 bg-success">
-                    <div class="py-4 d-flex justify-content-center align-items-center">
-                        <img src="img/logo.png" alt="" class="account-img rounded-circle object-fit-cover">
+
+            <!-- Info Akun -->
+
+            <div class="col-md-3 d-none d-md-flex justify-content-center align-items-center">
+                <div
+                    class="card account h-100 w-100 text-center rounded-4 d-flex justify-content-center align-items-center">
+                    <div class="card-img-top my-2 d-flex justify-content-center align-items-center">
+                        <img src="img/sample.jpg" alt="" class="account-img rounded-circle object-fit-cover">
                     </div>
-                    <div class="row account-text fs-5">
-                        <span>Name</span>
+                    <div class="card-body account-text w-100 px-2 py-1">
+                        <h5 class="card-title">Name</h5>
+                        <p class="card-subtitle">Member Level</p>
+                    </div>
+                    <ul class="info list-group list-group-flush w-100">
+                        <li class="info-saldo list-group-item px-1">
+                            <div class="row mx-2">
+                                <div class="col-auto text-start">
+                                    <i class="bi bi-wallet2 fs-5"></i>
+                                </div>
+                                <div class="col text-end">
+                                    <span class="text-end">IDR 10.000.000</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="info-saldo list-group-item px-1">
+                            <div class="row mx-2">
+                                <div class="col-auto text-start">
+                                    <i class="bi bi-coin fs-5"></i>
+                                </div>
+                                <div class="col text-end">
+                                    <span class="text-end">2000</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="card-body w-100 px-2 py-1">
+                        <a name="" id="" class="btn btn-custom w-100 mb-2 text-white" href="#" role="button">
+                            <i class="bi bi-wallet2 pe-3"></i>
+                            <Span>Deposit</Span>
+                        </a>
+                        <a name="" id="" class="btn btn-custom w-100 mb-2 text-white" href="#" role="button">
+                            <i class="bi bi-gear pe-3"></i>
+                            <Span>Pengaturan</Span>
+                        </a>
+                        <a name="" id="" class="btn btn-custom w-100 text-white" href="#" role="button">
+                            <i class="bi bi-box-arrow-left pe-3"></i>
+                            <Span>Logout</Span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row gx-2" style="height: 50rem;">t</div>
+        <div class="row kategori d-flex align-items-center">
+            <div class="col-5 text-white">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-floating">
+                            <input type="search" class="form-control me-2" name="formId1" id="formId1"
+                                placeholder="Search">
+                            <label for="formId1" class="">Search</label>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">                        
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </div>
+                </div>
+                <form role="search">
+                </form>
+            </div>
+        </div>
 
 
     </section>
     <!-- Swiper JS -->
     <script src="js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 30,
-            centeredSlides: true,
-            loop: true,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                dynamicBullets: true,
-            },
-        });
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
