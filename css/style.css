@@ -308,8 +308,16 @@ body {
    height: 42px;
 }
 
+.list-game .custom {
+   width: 170px !important;
+}
+
 @media (max-width: 768px) {
    .page .banner .swiper {
       height: 10rem;
    }
+
+      .list-game .custom {
+         width: 100px !important;
+      }
 }
