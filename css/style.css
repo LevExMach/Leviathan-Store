@@ -175,7 +175,7 @@ body {
 
 .card .btn-custom:hover,
 .kategori .btn-custom:hover,
-.slide-custom:hover {
+.mySwiper2 .slide-custom:hover {
    background: var(--hover-color);
    border: 1px solid rgba(255, 255, 255, 0.5);
    transition: all 0.5s ease !important;
@@ -274,7 +274,7 @@ body {
    border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.slide-custom {
+.mySwiper2 .slide-custom {
    border: 1px solid rgba(255, 255, 255, 0.25);
    background: var(--backdrop-glass);
    backdrop-filter: var(--backdrop-glass);
