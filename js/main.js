@@ -8,7 +8,7 @@ toggle.addEventListener('click', () => {
 })
 
 var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
+    spaceBetween: 10,
     centeredSlides: true,
     loop: true,
     autoplay: {
@@ -22,8 +22,8 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 var swiper = new Swiper(".mySwiper2", {
-    slidesPerView: 3,
-    spaceBetween: 30,
+    slidesPerView: 'auto',
+    spaceBetween: 20,
     freeMode: true,
 });
 
