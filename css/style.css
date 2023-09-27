@@ -317,7 +317,7 @@ body {
       height: 10rem;
    }
 
-      .list-game .custom {
-         width: 115px !important;
-      }
+   .list-game .custom {
+      width: 105px !important;
+   }
 }
