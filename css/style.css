@@ -316,6 +316,20 @@ body {
    width: 170px !important;
 }
 
+.card .card-custom {
+   background: var(--backdrop-glass);
+   backdrop-filter: var(--backdrop-glass);
+   border-radius: 0 0 1rem 1rem;
+}
+
+.card-body .card-title {
+   font-size: 14px;
+}
+
+.card-body p {
+   font-size: 12px;
+}
+
 @media (max-width: 768px) {
    .page .banner .swiper {
       height: 10rem;
@@ -323,5 +337,13 @@ body {
 
    .list-game .custom {
       width: 108px !important;
+   }
+
+   .card-custom p {
+      font-size: 9px;
+   }
+
+   .card-body .card-title {
+      font-size: 10px;
    }
 }
