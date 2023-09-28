@@ -324,11 +324,10 @@ body {
 
 .card-body .card-title {
    font-size: 14px;
+   height: 1.65rem;
+      display: block;
 }
 
-.card-body p {
-   font-size: 12px;
-}
 
 @media (max-width: 768px) {
    .page .banner .swiper {
@@ -339,11 +338,13 @@ body {
       width: 108px !important;
    }
 
-   .card-custom p {
-      font-size: 9px;
-   }
 
    .card-body .card-title {
       font-size: 10px;
+      bottom: -3px;
+      position: relative;
+      height: 1.65rem;
+      display: block;
+
    }
 }
