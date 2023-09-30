@@ -7,6 +7,12 @@ toggle.addEventListener('click', () => {
     sideBar.classList.toggle('close')
 })
 
+document.onclick = function(e) {
+    if (!toggle.contains(e.target)) {
+        sideBar.classList.remove('close')
+    }
+}
+
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 10,
     centeredSlides: true,
