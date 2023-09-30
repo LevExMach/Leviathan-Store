@@ -9,7 +9,7 @@ toggle.addEventListener('click', () => {
 
 document.onclick = function(e) {
     if (!toggle.contains(e.target)) {
-        sideBar.classList.remove('close')
+        sideBar.classList.add('close')
     }
 }
 
